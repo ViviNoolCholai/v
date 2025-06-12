@@ -1,11 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vivi Nool Cholai</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="assets/logo/logo.jpeg" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vivi Nool Cholai</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
 </head>
 
 
@@ -13,14 +21,105 @@
 <body class="min-h-screen bg-gradient-to-br from-purple-800 via-purple-900 to-indigo-900 relative">
 
   <!-- Background Pattern -->
-    <div class="absolute inset-0 opacity-10 bg-repeat bg-center" style="background-image: url('assets/logo/logo.jpeg'); background-size: 80px;"></div>
+  <div class="absolute inset-0 opacity-10">
+    <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white/5 to-transparent animate-pulse"></div>
+    <div class="absolute inset-0 bg-gradient-to-t from-transparent via-white/3 to-transparent animate-pulse"
+      style="animation-delay: 1s;"></div>
+  </div>
+
+  <!-- Floating Particles -->
+  <div id="particles-container"></div>
+
+  <!-- Floating Icons -->
+  <div class="absolute text-pink-300/20 left-[15%] top-[35%] animate-bounce cursor-pointer"
+  style="animation-delay: 0s; animation-duration: 8s; transform: rotate(0deg);">
+  <i data-lucide="heart" class="w-6 h-6 md:w-8 md:h-8 hover:scale-125 transition-transform"></i>
+</div>
+
+<div class="absolute text-yellow-300/20 left-[72%] top-[18%] animate-bounce cursor-pointer"
+  style="animation-delay: 1s; animation-duration: 10s; transform: rotate(25deg);">
+  <i data-lucide="star" class="bi bi-star w-6 h-6 md:w-8 md:h-8 hover:scale-125 transition-transform"></i>
+</div>
+
+<div class="absolute text-purple-300/20 left-[42%] top-[12%] animate-bounce cursor-pointer"
+  style="animation-delay: 2s; animation-duration: 12s; transform: rotate(50deg);">
+  <i data-lucide="sparkles" class="w-6 h-6 md:w-8 md:h-8 hover:scale-125 transition-transform"></i>
+</div>
+
+<div class="absolute text-blue-300/20 left-[8%] top-[70%] animate-bounce cursor-pointer"
+  style="animation-delay: 3s; animation-duration: 9s; transform: rotate(75deg);">
+  <i class="bi bi-code w-6 h-6 md:w-8 md:h-8 hover:scale-125 transition-transform"></i>
+</div>
+
+  <div class="absolute text-pink-300/20 left-[5%] top-[15%] animate-bounce cursor-pointer"
+  style="animation-delay: 0s; animation-duration: 8s; transform: rotate(0deg);">
+  <i data-lucide="heart" class="w-6 h-6 md:w-8 md:h-8 hover:scale-125 transition-transform"></i>
+</div>
+
+<div class="absolute text-orange-300/20 left-[63%] top-[45%] animate-bounce cursor-pointer"
+  style="animation-delay: 4s; animation-duration: 11s; transform: rotate(100deg);">
+  <i class="bi bi-palette w-6 h-6 md:w-8 md:h-8 hover:scale-125 transition-transform"></i>
+</div>
+
+<div class="absolute text-emerald-300/20 left-[27%] top-[58%] animate-bounce cursor-pointer"
+  style="animation-delay: 5s; animation-duration: 7s; transform: rotate(125deg);">
+  <i class="bi bi-camera w-6 h-6 md:w-8 md:h-8 hover:scale-125 transition-transform"></i>
+</div>
+
+<div class="absolute text-yellow-400/20 left-[79%] top-[66%] animate-bounce cursor-pointer"
+  style="animation-delay: 1.5s; animation-duration: 8s; transform: rotate(150deg);">
+  <i data-lucide="zap" class="w-6 h-6 md:w-8 md:h-8 hover:scale-125 transition-transform"></i>
+</div>
+
+<div class="absolute text-cyan-300/20 left-[35%] top-[25%] animate-bounce cursor-pointer"
+  style="animation-delay: 3.5s; animation-duration: 10s; transform: rotate(175deg);">
+  <i data-lucide="earth" class="w-6 h-6 md:w-8 md:h-8 hover:scale-125 transition-transform"></i>
+</div>
+
+<div class="absolute text-rose-300/20 left-[90%] top-[30%] animate-bounce cursor-pointer"
+  style="animation-delay: 6s; animation-duration: 9s; transform: rotate(200deg);">
+  <i data-lucide="shirt" class="w-6 h-6 md:w-8 md:h-8 hover:scale-125 transition-transform"></i>
+</div>
+
+<div class="absolute text-indigo-300/20 left-[11%] top-[10%] animate-bounce cursor-pointer"
+  style="animation-delay: 7s; animation-duration: 11s; transform: rotate(225deg);">
+  <i data-lucine="cat" class="bi bi-tshirt w-6 h-6 md:w-8 md:h-8 hover:scale-125 transition-transform"></i>
+</div>
+
+<div class="absolute text-teal-300/20 left-[50%] top-[80%] animate-bounce cursor-pointer"
+  style="animation-delay: 2.5s; animation-duration: 7s; transform: rotate(250deg);">
+  <i data-lucide="sparkles" class="bi bi-tshirt w-6 h-6 md:w-8 md:h-8 hover:scale-125 transition-transform"></i>
+</div>
+
+<div class="absolute text-purple-400/20 left-[66%] top-[5%] animate-bounce cursor-pointer"
+  style="animation-delay: 4.5s; animation-duration: 13s; transform: rotate(275deg);">
+  <i data-lucide="shirt" class="bi bi-tshirt w-6 h-6 md:w-8 md:h-8 hover:scale-125 transition-transform"></i>
+</div>
+
+
+  <!-- Additional Floating Elements -->
+  <div class="absolute top-1/4 right-10 text-white/10 animate-spin-slow">
+    <i class="bi bi-sparkle w-12 h-12"></i>
+  </div>
+  <div class="absolute bottom-1/3 left-8 text-white/10 animate-pulse" style="animation-delay: 2s;">
+    <i class="bi bi-star w-10 h-10"></i>
+  </div>
+  <div class="absolute top-1/2 right-4 text-white/10 animate-bounce" style="animation-delay: 3s;">
+    <i class="bi bi-heart w-8 h-8"></i>
+  </div>
+  <div class="absolute top-1/3 left-1/4 text-white/10 animate-pulse" style="animation-delay: 4s;">
+    <i class="bi bi-tshirt w-10 h-10"></i>
+  </div>
+  <div class="absolute bottom-1/4 right-1/3 text-white/10 animate-bounce" style="animation-delay: 5s;">
+    <i class="bi bi-tshirt w-8 h-8"></i>
+  </div>
 
   <div class="relative z-10 container mx-auto px-4 py-12 md:py-20">
     <div class="max-w-md mx-auto text-center">
 
       <!-- Profile Section -->
-      <div class="mb-10">
-      <!-- 
+      <div class="mb-10 animate-fade-in">
+        <!-- 
         <div class="relative inline-block mb-6">
           <div class="w-32 h-32 md:w-40 md:h-40 rounded-full bg-gradient-to-r from-purple-500 to-purple-700 p-1 shadow-2xl">
             <div class="w-full h-full rounded-full bg-white flex items-center justify-center">
@@ -30,106 +129,189 @@
         </div> -->
 
         <!-- Logo With profile animation -->
-          <div class="circle-container">
-            <div class="gradient-circle">
-              <div class="circle">
-                <svg viewBox="0 0 150 150">
-                  <circle cx="75" cy="75" r="72" />
-                </svg>
-              </div>
-              <div class="inner-circle">
-                <img src="assets/logo/logo.JPG" alt="Logo" />
-              </div>
+        <div class="circle-container transition-all duration-500">
+          <div class="gradient-circle">
+            <div class="circle">
+              <svg viewBox="0 0 150 150">
+                <circle cx="75" cy="75" r="72" />
+              </svg>
+            </div>
+            <div class="inner-circle">
+              <img src="assets/logo/logo.JPG" alt="Logo" />
             </div>
           </div>
+        </div>
 
-        <h1 class="text-3xl md:text-4xl font-bold text-white mb-2">Vivi Nool Cholai</h1>
-        <p class="text-lg text-purple-200 mb-3">Online Clothing </p>
-        <p class="text-sm text-purple-300 max-w-xs mx-auto leading-relaxed">
-            Blending tradition with today’s trends <br>
+        <h1 class="text-3xl md:text-4xl font-bold text-white mb-2 transition-transform duration-300">Vivi Nool Cholai
+        </h1>
+        <p class="text-lg text-purple-200 mb-3 transition-transform duration-300">Online Clothing </p>
+        <p class="text-sm text-purple-300 max-w-xs mx-auto leading-relaxed transition-transform duration-300">
+          Blending tradition with today’s trends <br>
           Kurtis | T-Shirts | Readymade Collections <br>
-            Crafted with love
+          Crafted with love
         </p>
       </div>
 
       <!-- Social Link Cards -->
       <div class="space-y-4 text-left">
-        
-        <a href="https://www.instagram.com/vivi_nool_cholai?igsh=bTVrZ3pzeXhubm1j" target="_blank" class="group block bg-purple-600/20 backdrop-blur-sm border border-purple-500/30 rounded-2xl p-4 hover:bg-purple-600/30 hover:scale-105 transition-all shadow-lg">
-          <div class="flex items-center justify-between">
+
+
+        <a href="https://www.instagram.com/vivi_nool_cholai?igsh=bTVrZ3pzeXhubm1j" target="_blank"
+          class="group block w-full bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-4 md:p-5 shadow-lg transition-all duration-300 ease-out hover:bg-white/20 hover:border-white/30 hover:scale-105 hover:shadow-purple-500/20 relative overflow-hidden animate-fade-in hover:animate-pulse-slow relative">
+          <!-- Gradient background effect on hover -->
+          <div
+            class="absolute inset-0 bg-gradient-to-r from-pink-500 to-rose-500 opacity-0 group-hover:opacity-10 transition-opacity duration-300 rounded-2xl z-0">
+          </div>
+          <div class="flex items-center justify-between relative z-10">
             <div class="flex items-center space-x-4">
-              <div class="w-12 h-12 bg-purple-500/30 rounded-xl flex items-center justify-center text-white group-hover:bg-purple-400/30">
-                <img  class="w-8 h-8" src="assets/icons/instagram.png" alt="instagram">
+              <div class="w-12 h-12 flex-shrink-0 bg-purple-500/30 rounded-xl flex items-center justify-center">
+                <img class="w-8 h-8" alt="svgImg"
+                  src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciICB2aWV3Qm94PSIwIDAgNDggNDgiIHdpZHRoPSI0OHB4IiBoZWlnaHQ9IjQ4cHgiPjxyYWRpYWxHcmFkaWVudCBpZD0ieU9ybm5obGlDcmRTMmd5fjR0RDhtYSIgY3g9IjE5LjM4IiBjeT0iNDIuMDM1IiByPSI0NC44OTkiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNmZDUiLz48c3RvcCBvZmZzZXQ9Ii4zMjgiIHN0b3AtY29sb3I9IiNmZjU0M2YiLz48c3RvcCBvZmZzZXQ9Ii4zNDgiIHN0b3AtY29sb3I9IiNmYzUyNDUiLz48c3RvcCBvZmZzZXQ9Ii41MDQiIHN0b3AtY29sb3I9IiNlNjQ3NzEiLz48c3RvcCBvZmZzZXQ9Ii42NDMiIHN0b3AtY29sb3I9IiNkNTNlOTEiLz48c3RvcCBvZmZzZXQ9Ii43NjEiIHN0b3AtY29sb3I9IiNjYzM5YTQiLz48c3RvcCBvZmZzZXQ9Ii44NDEiIHN0b3AtY29sb3I9IiNjODM3YWIiLz48L3JhZGlhbEdyYWRpZW50PjxwYXRoIGZpbGw9InVybCgjeU9ybm5obGlDcmRTMmd5fjR0RDhtYSkiIGQ9Ik0zNC4wMTcsNDEuOTlsLTIwLDAuMDE5Yy00LjQsMC4wMDQtOC4wMDMtMy41OTItOC4wMDgtNy45OTJsLTAuMDE5LTIwCWMtMC4wMDQtNC40LDMuNTkyLTguMDAzLDcuOTkyLTguMDA4bDIwLTAuMDE5YzQuNC0wLjAwNCw4LjAwMywzLjU5Miw4LjAwOCw3Ljk5MmwwLjAxOSwyMAlDNDIuMDE0LDM4LjM4MywzOC40MTcsNDEuOTg2LDM0LjAxNyw0MS45OXoiLz48cmFkaWFsR3JhZGllbnQgaWQ9InlPcm5uaGxpQ3JkUzJneX40dEQ4bWIiIGN4PSIxMS43ODYiIGN5PSI1LjU0IiByPSIyOS44MTMiIGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoMSAwIDAgLjY2NjMgMCAxLjg0OSkiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiM0MTY4YzkiLz48c3RvcCBvZmZzZXQ9Ii45OTkiIHN0b3AtY29sb3I9IiM0MTY4YzkiIHN0b3Atb3BhY2l0eT0iMCIvPjwvcmFkaWFsR3JhZGllbnQ+PHBhdGggZmlsbD0idXJsKCN5T3JubmhsaUNyZFMyZ3l+NHREOG1iKSIgZD0iTTM0LjAxNyw0MS45OWwtMjAsMC4wMTljLTQuNCwwLjAwNC04LjAwMy0zLjU5Mi04LjAwOC03Ljk5MmwtMC4wMTktMjAJYy0wLjAwNC00LjQsMy41OTItOC4wMDMsNy45OTItOC4wMDhsMjAtMC4wMTljNC40LTAuMDA0LDguMDAzLDMuNTkyLDguMDA4LDcuOTkybDAuMDE5LDIwCUM0Mi4wMTQsMzguMzgzLDM4LjQxNyw0MS45ODYsMzQuMDE3LDQxLjk5eiIvPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0yNCwzMWMtMy44NTksMC03LTMuMTQtNy03czMuMTQxLTcsNy03czcsMy4xNCw3LDdTMjcuODU5LDMxLDI0LDMxeiBNMjQsMTljLTIuNzU3LDAtNSwyLjI0My01LDUJczIuMjQzLDUsNSw1czUtMi4yNDMsNS01UzI2Ljc1NywxOSwyNCwxOXoiLz48Y2lyY2xlIGN4PSIzMS41IiBjeT0iMTYuNSIgcj0iMS41IiBmaWxsPSIjZmZmIi8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTMwLDM3SDE4Yy0zLjg1OSwwLTctMy4xNC03LTdWMThjMC0zLjg2LDMuMTQxLTcsNy03aDEyYzMuODU5LDAsNywzLjE0LDcsN3YxMglDMzcsMzMuODYsMzMuODU5LDM3LDMwLDM3eiBNMTgsMTNjLTIuNzU3LDAtNSwyLjI0My01LDV2MTJjMCwyLjc1NywyLjI0Myw1LDUsNWgxMmMyLjc1NywwLDUtMi4yNDMsNS01VjE4YzAtMi43NTctMi4yNDMtNS01LTVIMTh6Ii8+PC9zdmc+" />
+
               </div>
-              <div>
-                <h3 class="text-white font-semibold text-lg">Instagram</h3>
-                <p class="text-purple-200 text-sm">Follow for Daily Update</p>
+              <div class="text-left">
+                <h3 class="text-white font-semibold text-lg group-hover:text-gray-100 transition-colors duration-300">
+                  Instagram
+                </h3>
+                <p class="text-gray-300 text-sm group-hover:text-gray-200 transition-colors duration-300">
+                  Follow for Daily Update
+                </p>
               </div>
             </div>
-            <div class="text-white/60 group-hover:text-white transform transition duration-300">➡️</div>
+            <div
+              class="flex-shrink-0 text-white/60 group-hover:text-white transform group-hover:translate-x-1 transition-all duration-300">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+              </svg>
+            </div>
           </div>
         </a>
 
-        <a href="https://youtube.com/@vivi_nool_cholai?si=hm9M-T8jS4KjM7Jz" target="_blank" class="group block bg-purple-600/20 backdrop-blur-sm border border-purple-500/30 rounded-2xl p-4 hover:bg-purple-600/30 hover:scale-105 transition-all shadow-lg">
-          <div class="flex items-center justify-between">
+
+        <a href="https://www.facebook.com/share/19ViDL9qwS/" target="_blank"
+          class="group block w-full bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-4 md:p-5 shadow-lg transition-all duration-300 ease-out hover:bg-white/20 hover:border-white/30 hover:scale-105 hover:shadow-purple-500/20 relative overflow-hidden animate-fade-in hover:animate-pulse-slow relative">
+          <!-- Gradient background effect on hover -->
+          <div
+            class="absolute inset-0 bg-gradient-to-r from-blue-600 to-blue-700  opacity-0 group-hover:opacity-10 transition-opacity duration-300 rounded-2xl z-0">
+          </div>
+          <div class="flex items-center justify-between relative z-10">
             <div class="flex items-center space-x-4">
-              <div class="w-12 h-12 bg-purple-500/30 rounded-xl flex items-center justify-center text-white group-hover:bg-purple-400/30">
-                <img class= "w-8 h-8" alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciICB2aWV3Qm94PSIwIDAgNDggNDgiIHdpZHRoPSI0OHB4IiBoZWlnaHQ9IjQ4cHgiPjxwYXRoIGZpbGw9IiNGRjNEMDAiIGQ9Ik00My4yLDMzLjljLTAuNCwyLjEtMi4xLDMuNy00LjIsNGMtMy4zLDAuNS04LjgsMS4xLTE1LDEuMWMtNi4xLDAtMTEuNi0wLjYtMTUtMS4xYy0yLjEtMC4zLTMuOC0xLjktNC4yLTRDNC40LDMxLjYsNCwyOC4yLDQsMjRjMC00LjIsMC40LTcuNiwwLjgtOS45YzAuNC0yLjEsMi4xLTMuNyw0LjItNEMxMi4zLDkuNiwxNy44LDksMjQsOWM2LjIsMCwxMS42LDAuNiwxNSwxLjFjMi4xLDAuMywzLjgsMS45LDQuMiw0YzAuNCwyLjMsMC45LDUuNywwLjksOS45QzQ0LDI4LjIsNDMuNiwzMS42LDQzLjIsMzMuOXoiLz48cGF0aCBmaWxsPSIjRkZGIiBkPSJNMjAgMzFMMjAgMTcgMzIgMjR6Ii8+PC9zdmc+"/>
+              <div class="w-12 h-12 flex-shrink-0 bg-purple-500/30 rounded-xl flex items-center justify-center">
+                <img class="w-8 h-8" alt="svgImg"
+                  src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciICB2aWV3Qm94PSIwIDAgNDggNDgiIHdpZHRoPSI0OHB4IiBoZWlnaHQ9IjQ4cHgiPjxwYXRoIGZpbGw9IiMwMzliZTUiIGQ9Ik0yNCA1QTE5IDE5IDAgMSAwIDI0IDQzQTE5IDE5IDAgMSAwIDI0IDVaIi8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTI2LjU3MiwyOS4wMzZoNC45MTdsMC43NzItNC45OTVoLTUuNjl2LTIuNzNjMC0yLjA3NSwwLjY3OC0zLjkxNSwyLjYxOS0zLjkxNWgzLjExOXYtNC4zNTljLTAuNTQ4LTAuMDc0LTEuNzA3LTAuMjM2LTMuODk3LTAuMjM2Yy00LjU3MywwLTcuMjU0LDIuNDE1LTcuMjU0LDcuOTE3djMuMzIzaC00LjcwMXY0Ljk5NWg0LjcwMXYxMy43MjlDMjIuMDg5LDQyLjkwNSwyMy4wMzIsNDMsMjQsNDNjMC44NzUsMCwxLjcyOS0wLjA4LDIuNTcyLTAuMTk0VjI5LjAzNnoiLz48L3N2Zz4=" />
               </div>
-              <div>
-                <h3 class="text-white font-semibold text-lg">YouTube</h3>
-                <p class="text-purple-200 text-sm">Subscribe us for more update</p>
+              <div class="text-left">
+                <h3 class="text-white font-semibold text-lg group-hover:text-gray-100 transition-colors duration-300">
+                  Facebook
+                </h3>
+                <p class="text-gray-300 text-sm group-hover:text-gray-200 transition-colors duration-300">
+                  Personal Enquiry and Order
+                </p>
               </div>
             </div>
-            <div class="text-white/60 group-hover:text-white transform transition duration-300">➡️</div>
+            <div
+              class="flex-shrink-0 text-white/60 group-hover:text-white transform group-hover:translate-x-1 transition-all duration-300">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+              </svg>
+            </div>
           </div>
         </a>
 
-        <a href="whatsapp" target="_blank" class="group block bg-purple-600/20 backdrop-blur-sm border border-purple-500/30 rounded-2xl p-4 hover:bg-purple-600/30 hover:scale-105 transition-all shadow-lg">
-          <div class="flex items-center justify-between">
+
+        <a href="https://youtube.com/@vivi_nool_cholai?si=hm9M-T8jS4KjM7Jz" target="_blank"
+          class="group block w-full bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-4 md:p-5 shadow-lg transition-all duration-300 ease-out hover:bg-white/20 hover:border-white/30 hover:scale-105 hover:shadow-purple-500/20 relative overflow-hidden animate-fade-in hover:animate-pulse-slow relative">
+          <!-- Gradient background effect on hover -->
+          <div
+            class="absolute inset-0 bg-gradient-to-r  from-red-500 to-red-600 opacity-0 group-hover:opacity-10 transition-opacity duration-300 rounded-2xl z-0">
+          </div>
+          <div class="flex items-center justify-between relative z-10">
             <div class="flex items-center space-x-4">
-              <div class="w-12 h-12 bg-purple-500/30 rounded-xl flex items-center justify-center text-white group-hover:bg-purple-400/30">
-              <img class= "w-8 h-8" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciICB2aWV3Qm94PSIwIDAgNDggNDgiIHdpZHRoPSI0OHB4IiBoZWlnaHQ9IjQ4cHgiIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIj48cGF0aCBmaWxsPSIjZmZmIiBkPSJNNC44NjgsNDMuMzAzbDIuNjk0LTkuODM1QzUuOSwzMC41OSw1LjAyNiwyNy4zMjQsNS4wMjcsMjMuOTc5QzUuMDMyLDEzLjUxNCwxMy41NDgsNSwyNC4wMTQsNWM1LjA3OSwwLjAwMiw5Ljg0NSwxLjk3OSwxMy40Myw1LjU2NmMzLjU4NCwzLjU4OCw1LjU1OCw4LjM1Niw1LjU1NiwxMy40MjhjLTAuMDA0LDEwLjQ2NS04LjUyMiwxOC45OC0xOC45ODYsMTguOThjLTAuMDAxLDAsMCwwLDAsMGgtMC4wMDhjLTMuMTc3LTAuMDAxLTYuMy0wLjc5OC05LjA3My0yLjMxMUw0Ljg2OCw0My4zMDN6Ii8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTQuODY4LDQzLjgwM2MtMC4xMzIsMC0wLjI2LTAuMDUyLTAuMzU1LTAuMTQ4Yy0wLjEyNS0wLjEyNy0wLjE3NC0wLjMxMi0wLjEyNy0wLjQ4M2wyLjYzOS05LjYzNmMtMS42MzYtMi45MDYtMi40OTktNi4yMDYtMi40OTctOS41NTZDNC41MzIsMTMuMjM4LDEzLjI3Myw0LjUsMjQuMDE0LDQuNWM1LjIxLDAuMDAyLDEwLjEwNSwyLjAzMSwxMy43ODQsNS43MTNjMy42NzksMy42ODMsNS43MDQsOC41NzcsNS43MDIsMTMuNzgxYy0wLjAwNCwxMC43NDEtOC43NDYsMTkuNDgtMTkuNDg2LDE5LjQ4Yy0zLjE4OS0wLjAwMS02LjM0NC0wLjc4OC05LjE0NC0yLjI3N2wtOS44NzUsMi41ODlDNC45NTMsNDMuNzk4LDQuOTExLDQzLjgwMyw0Ljg2OCw0My44MDN6Ii8+PHBhdGggZmlsbD0iI2NmZDhkYyIgZD0iTTI0LjAxNCw1YzUuMDc5LDAuMDAyLDkuODQ1LDEuOTc5LDEzLjQzLDUuNTY2YzMuNTg0LDMuNTg4LDUuNTU4LDguMzU2LDUuNTU2LDEzLjQyOGMtMC4wMDQsMTAuNDY1LTguNTIyLDE4Ljk4LTE4Ljk4NiwxOC45OGgtMC4wMDhjLTMuMTc3LTAuMDAxLTYuMy0wLjc5OC05LjA3My0yLjMxMUw0Ljg2OCw0My4zMDNsMi42OTQtOS44MzVDNS45LDMwLjU5LDUuMDI2LDI3LjMyNCw1LjAyNywyMy45NzlDNS4wMzIsMTMuNTE0LDEzLjU0OCw1LDI0LjAxNCw1IE0yNC4wMTQsNDIuOTc0QzI0LjAxNCw0Mi45NzQsMjQuMDE0LDQyLjk3NCwyNC4wMTQsNDIuOTc0QzI0LjAxNCw0Mi45NzQsMjQuMDE0LDQyLjk3NCwyNC4wMTQsNDIuOTc0IE0yNC4wMTQsNDIuOTc0QzI0LjAxNCw0Mi45NzQsMjQuMDE0LDQyLjk3NCwyNC4wMTQsNDIuOTc0QzI0LjAxNCw0Mi45NzQsMjQuMDE0LDQyLjk3NCwyNC4wMTQsNDIuOTc0IE0yNC4wMTQsNEMyNC4wMTQsNCwyNC4wMTQsNCwyNC4wMTQsNEMxMi45OTgsNCw0LjAzMiwxMi45NjIsNC4wMjcsMjMuOTc5Yy0wLjAwMSwzLjM2NywwLjg0OSw2LjY4NSwyLjQ2MSw5LjYyMmwtMi41ODUsOS40MzljLTAuMDk0LDAuMzQ1LDAuMDAyLDAuNzEzLDAuMjU0LDAuOTY3YzAuMTksMC4xOTIsMC40NDcsMC4yOTcsMC43MTEsMC4yOTdjMC4wODUsMCwwLjE3LTAuMDExLDAuMjU0LTAuMDMzbDkuNjg3LTIuNTRjMi44MjgsMS40NjgsNS45OTgsMi4yNDMsOS4xOTcsMi4yNDRjMTEuMDI0LDAsMTkuOTktOC45NjMsMTkuOTk1LTE5Ljk4YzAuMDAyLTUuMzM5LTIuMDc1LTEwLjM1OS01Ljg0OC0xNC4xMzVDMzQuMzc4LDYuMDgzLDI5LjM1Nyw0LjAwMiwyNC4wMTQsNEwyNC4wMTQsNHoiLz48cGF0aCBmaWxsPSIjNDBjMzUxIiBkPSJNMzUuMTc2LDEyLjgzMmMtMi45OC0yLjk4Mi02Ljk0MS00LjYyNS0xMS4xNTctNC42MjZjLTguNzA0LDAtMTUuNzgzLDcuMDc2LTE1Ljc4NywxNS43NzRjLTAuMDAxLDIuOTgxLDAuODMzLDUuODgzLDIuNDEzLDguMzk2bDAuMzc2LDAuNTk3bC0xLjU5NSw1LjgyMWw1Ljk3My0xLjU2NmwwLjU3NywwLjM0MmMyLjQyMiwxLjQzOCw1LjIsMi4xOTgsOC4wMzIsMi4xOTloMC4wMDZjOC42OTgsMCwxNS43NzctNy4wNzcsMTUuNzgtMTUuNzc2QzM5Ljc5NSwxOS43NzgsMzguMTU2LDE1LjgxNCwzNS4xNzYsMTIuODMyeiIvPjxwYXRoIGZpbGw9IiNmZmYiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTE5LjI2OCwxNi4wNDVjLTAuMzU1LTAuNzktMC43MjktMC44MDYtMS4wNjgtMC44MmMtMC4yNzctMC4wMTItMC41OTMtMC4wMTEtMC45MDktMC4wMTFjLTAuMzE2LDAtMC44MywwLjExOS0xLjI2NSwwLjU5NGMtMC40MzUsMC40NzUtMS42NjEsMS42MjItMS42NjEsMy45NTZjMCwyLjMzNCwxLjcsNC41OSwxLjkzNyw0LjkwNmMwLjIzNywwLjMxNiwzLjI4Miw1LjI1OSw4LjEwNCw3LjE2MWM0LjAwNywxLjU4LDQuODIzLDEuMjY2LDUuNjkzLDEuMTg3YzAuODctMC4wNzksMi44MDctMS4xNDcsMy4yMDItMi4yNTVjMC4zOTUtMS4xMDgsMC4zOTUtMi4wNTcsMC4yNzctMi4yNTVjLTAuMTE5LTAuMTk4LTAuNDM1LTAuMzE2LTAuOTA5LTAuNTU0cy0yLjgwNy0xLjM4NS0zLjI0Mi0xLjU0M2MtMC40MzUtMC4xNTgtMC43NTEtMC4yMzctMS4wNjgsMC4yMzhjLTAuMzE2LDAuNDc0LTEuMjI1LDEuNTQzLTEuNTAyLDEuODU5Yy0wLjI3NywwLjMxNy0wLjU1NCwwLjM1Ny0xLjAyOCwwLjExOWMtMC40NzQtMC4yMzgtMi4wMDItMC43MzgtMy44MTUtMi4zNTRjLTEuNDEtMS4yNTctMi4zNjItMi44MS0yLjYzOS0zLjI4NWMtMC4yNzctMC40NzQtMC4wMy0wLjczMSwwLjIwOC0wLjk2OGMwLjIxMy0wLjIxMywwLjQ3NC0wLjU1NCwwLjcxMi0wLjgzMWMwLjIzNy0wLjI3NywwLjMxNi0wLjQ3NSwwLjQ3NC0wLjc5MWMwLjE1OC0wLjMxNywwLjA3OS0wLjU5NC0wLjA0LTAuODMxQzIwLjYxMiwxOS4zMjksMTkuNjksMTYuOTgzLDE5LjI2OCwxNi4wNDV6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiLz48L3N2Zz4="/>
+              <div class="w-12 h-12 flex-shrink-0 bg-purple-500/30 rounded-xl flex items-center justify-center">
+                <img class="w-8 h-8" alt="svgImg"
+                  src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciICB2aWV3Qm94PSIwIDAgNDggNDgiIHdpZHRoPSI0OHB4IiBoZWlnaHQ9IjQ4cHgiPjxwYXRoIGZpbGw9IiNGRjNEMDAiIGQ9Ik00My4yLDMzLjljLTAuNCwyLjEtMi4xLDMuNy00LjIsNGMtMy4zLDAuNS04LjgsMS4xLTE1LDEuMWMtNi4xLDAtMTEuNi0wLjYtMTUtMS4xYy0yLjEtMC4zLTMuOC0xLjktNC4yLTRDNC40LDMxLjYsNCwyOC4yLDQsMjRjMC00LjIsMC40LTcuNiwwLjgtOS45YzAuNC0yLjEsMi4xLTMuNyw0LjItNEMxMi4zLDkuNiwxNy44LDksMjQsOWM2LjIsMCwxMS42LDAuNiwxNSwxLjFjMi4xLDAuMywzLjgsMS45LDQuMiw0YzAuNCwyLjMsMC45LDUuNywwLjksOS45QzQ0LDI4LjIsNDMuNiwzMS42LDQzLjIsMzMuOXoiLz48cGF0aCBmaWxsPSIjRkZGIiBkPSJNMjAgMzFMMjAgMTcgMzIgMjR6Ii8+PC9zdmc+" />
               </div>
-              <div>
-                <h3 class="text-white font-semibold text-lg">Whatsapp</h3>
-                <p class="text-purple-200 text-sm">Personal Enquiry and Order</p>
+              <div class="text-left">
+                <h3 class="text-white font-semibold text-lg group-hover:text-gray-100 transition-colors duration-300">
+                  YouTube
+                </h3>
+                <p class="text-gray-300 text-sm group-hover:text-gray-200 transition-colors duration-300">
+                  Subscribe us for more update
+                </p>
               </div>
             </div>
-            <div class="text-white/60 group-hover:text-white transform transition duration-300">➡️</div>
+            <div
+              class="flex-shrink-0 text-white/60 group-hover:text-white transform group-hover:translate-x-1 transition-all duration-300">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+              </svg>
+            </div>
           </div>
         </a>
 
-        <a href="https://www.facebook.com/share/19ViDL9qwS/" target="_blank" class="group block bg-purple-600/20 backdrop-blur-sm border border-purple-500/30 rounded-2xl p-4 hover:bg-purple-600/30 hover:scale-105 transition-all shadow-lg">
-          <div class="flex items-center justify-between">
+
+        <a href="whatsapp" target="_blank"
+          class="group block w-full bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-4 md:p-5 shadow-lg transition-all duration-300 ease-out hover:bg-white/20 hover:border-white/30 hover:scale-105 hover:shadow-purple-500/20 relative overflow-hidden animate-fade-in hover:animate-pulse-slow relative">
+          <!-- Gradient background effect on hover -->
+          <div
+            class="absolute inset-0 bg-gradient-to-r from-green-500 to-emerald-600  opacity-0 group-hover:opacity-10 transition-opacity duration-300 rounded-2xl z-0">
+          </div>
+          <div class="flex items-center justify-between relative z-10">
             <div class="flex items-center space-x-4">
-              <div class="w-12 h-12 bg-purple-500/30 rounded-xl flex items-center justify-center group-hover:bg-purple-400/30">
-                <img class= "w-8 h-8" alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciICB2aWV3Qm94PSIwIDAgNDggNDgiIHdpZHRoPSI0OHB4IiBoZWlnaHQ9IjQ4cHgiPjxwYXRoIGZpbGw9IiMwMzliZTUiIGQ9Ik0yNCA1QTE5IDE5IDAgMSAwIDI0IDQzQTE5IDE5IDAgMSAwIDI0IDVaIi8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTI2LjU3MiwyOS4wMzZoNC45MTdsMC43NzItNC45OTVoLTUuNjl2LTIuNzNjMC0yLjA3NSwwLjY3OC0zLjkxNSwyLjYxOS0zLjkxNWgzLjExOXYtNC4zNTljLTAuNTQ4LTAuMDc0LTEuNzA3LTAuMjM2LTMuODk3LTAuMjM2Yy00LjU3MywwLTcuMjU0LDIuNDE1LTcuMjU0LDcuOTE3djMuMzIzaC00LjcwMXY0Ljk5NWg0LjcwMXYxMy43MjlDMjIuMDg5LDQyLjkwNSwyMy4wMzIsNDMsMjQsNDNjMC44NzUsMCwxLjcyOS0wLjA4LDIuNTcyLTAuMTk0VjI5LjAzNnoiLz48L3N2Zz4="/>
-            </div>
-              <div>
-                <h3 class="text-white font-semibold text-lg">Facebook</h3>
-                <p class="text-purple-200 text-sm">Connect with us</p>
+              <div class="w-12 h-12 flex-shrink-0 bg-purple-500/30 rounded-xl flex items-center justify-center">
+                <img class="w-8 h-8"
+                  src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciICB2aWV3Qm94PSIwIDAgNDggNDgiIHdpZHRoPSI0OHB4IiBoZWlnaHQ9IjQ4cHgiIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIj48cGF0aCBmaWxsPSIjZmZmIiBkPSJNNC44NjgsNDMuMzAzbDIuNjk0LTkuODM1QzUuOSwzMC41OSw1LjAyNiwyNy4zMjQsNS4wMjcsMjMuOTc5QzUuMDMyLDEzLjUxNCwxMy41NDgsNSwyNC4wMTQsNWM1LjA3OSwwLjAwMiw5Ljg0NSwxLjk3OSwxMy40Myw1LjU2NmMzLjU4NCwzLjU4OCw1LjU1OCw4LjM1Niw1LjU1NiwxMy40MjhjLTAuMDA0LDEwLjQ2NS04LjUyMiwxOC45OC0xOC45ODYsMTguOThjLTAuMDAxLDAsMCwwLDAsMGgtMC4wMDhjLTMuMTc3LTAuMDAxLTYuMy0wLjc5OC05LjA3My0yLjMxMUw0Ljg2OCw0My4zMDN6Ii8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTQuODY4LDQzLjgwM2MtMC4xMzIsMC0wLjI2LTAuMDUyLTAuMzU1LTAuMTQ4Yy0wLjEyNS0wLjEyNy0wLjE3NC0wLjMxMi0wLjEyNy0wLjQ4M2wyLjYzOS05LjYzNmMtMS42MzYtMi45MDYtMi40OTktNi4yMDYtMi40OTctOS41NTZDNC41MzIsMTMuMjM4LDEzLjI3Myw0LjUsMjQuMDE0LDQuNWM1LjIxLDAuMDAyLDEwLjEwNSwyLjAzMSwxMy43ODQsNS43MTNjMy42NzksMy42ODMsNS43MDQsOC41NzcsNS43MDIsMTMuNzgxYy0wLjAwNCwxMC43NDEtOC43NDYsMTkuNDgtMTkuNDg2LDE5LjQ4Yy0zLjE4OS0wLjAwMS02LjM0NC0wLjc4OC05LjE0NC0yLjI3N2wtOS44NzUsMi41ODlDNC45NTMsNDMuNzk4LDQuOTExLDQzLjgwMyw0Ljg2OCw0My44MDN6Ii8+PHBhdGggZmlsbD0iI2NmZDhkYyIgZD0iTTI0LjAxNCw1YzUuMDc5LDAuMDAyLDkuODQ1LDEuOTc5LDEzLjQzLDUuNTY2YzMuNTg0LDMuNTg4LDUuNTU4LDguMzU2LDUuNTU2LDEzLjQyOGMtMC4wMDQsMTAuNDY1LTguNTIyLDE4Ljk4LTE4Ljk4NiwxOC45OGgtMC4wMDhjLTMuMTc3LTAuMDAxLTYuMy0wLjc5OC05LjA3My0yLjMxMUw0Ljg2OCw0My4zMDNsMi42OTQtOS44MzVDNS45LDMwLjU5LDUuMDI2LDI3LjMyNCw1LjAyNywyMy45NzlDNS4wMzIsMTMuNTE0LDEzLjU0OCw1LDI0LjAxNCw1IE0yNC4wMTQsNDIuOTc0QzI0LjAxNCw0Mi45NzQsMjQuMDE0LDQyLjk3NCwyNC4wMTQsNDIuOTc0QzI0LjAxNCw0Mi45NzQsMjQuMDE0LDQyLjk3NCwyNC4wMTQsNDIuOTc0IE0yNC4wMTQsNDIuOTc0QzI0LjAxNCw0Mi45NzQsMjQuMDE0LDQyLjk3NCwyNC4wMTQsNDIuOTc0QzI0LjAxNCw0Mi45NzQsMjQuMDE0LDQyLjk3NCwyNC4wMTQsNDIuOTc0IE0yNC4wMTQsNEMyNC4wMTQsNCwyNC4wMTQsNCwyNC4wMTQsNEMxMi45OTgsNCw0LjAzMiwxMi45NjIsNC4wMjcsMjMuOTc5Yy0wLjAwMSwzLjM2NywwLjg0OSw2LjY4NSwyLjQ2MSw5LjYyMmwtMi41ODUsOS40MzljLTAuMDk0LDAuMzQ1LDAuMDAyLDAuNzEzLDAuMjU0LDAuOTY3YzAuMTksMC4xOTIsMC40NDcsMC4yOTcsMC43MTEsMC4yOTdjMC4wODUsMCwwLjE3LTAuMDExLDAuMjU0LTAuMDMzbDkuNjg3LTIuNTRjMi44MjgsMS40NjgsNS45OTgsMi4yNDMsOS4xOTcsMi4yNDRjMTEuMDI0LDAsMTkuOTktOC45NjMsMTkuOTk1LTE5Ljk4YzAuMDAyLTUuMzM5LTIuMDc1LTEwLjM1OS01Ljg0OC0xNC4xMzVDMzQuMzc4LDYuMDgzLDI5LjM1Nyw0LjAwMiwyNC4wMTQsNEwyNC4wMTQsNHoiLz48cGF0aCBmaWxsPSIjNDBjMzUxIiBkPSJNMzUuMTc2LDEyLjgzMmMtMi45OC0yLjk4Mi02Ljk0MS00LjYyNS0xMS4xNTctNC42MjZjLTguNzA0LDAtMTUuNzgzLDcuMDc2LTE1Ljc4NywxNS43NzRjLTAuMDAxLDIuOTgxLDAuODMzLDUuODgzLDIuNDEzLDguMzk2bDAuMzc2LDAuNTk3bC0xLjU5NSw1LjgyMWw1Ljk3My0xLjU2NmwwLjU3NywwLjM0MmMyLjQyMiwxLjQzOCw1LjIsMi4xOTgsOC4wMzIsMi4xOTloMC4wMDZjOC42OTgsMCwxNS43NzctNy4wNzcsMTUuNzgtMTUuNzc2QzM5Ljc5NSwxOS43NzgsMzguMTU2LDE1LjgxNCwzNS4xNzYsMTIuODMyeiIvPjxwYXRoIGZpbGw9IiNmZmYiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTE5LjI2OCwxNi4wNDVjLTAuMzU1LTAuNzktMC43MjktMC44MDYtMS4wNjgtMC44MmMtMC4yNzctMC4wMTItMC41OTMtMC4wMTEtMC45MDktMC4wMTFjLTAuMzE2LDAtMC44MywwLjExOS0xLjI2NSwwLjU5NGMtMC40MzUsMC40NzUtMS42NjEsMS42MjItMS42NjEsMy45NTZjMCwyLjMzNCwxLjcsNC41OSwxLjkzNyw0LjkwNmMwLjIzNywwLjMxNiwzLjI4Miw1LjI1OSw4LjEwNCw3LjE2MWM0LjAwNywxLjU4LDQuODIzLDEuMjY2LDUuNjkzLDEuMTg3YzAuODctMC4wNzksMi44MDctMS4xNDcsMy4yMDItMi4yNTVjMC4zOTUtMS4xMDgsMC4zOTUtMi4wNTcsMC4yNzctMi4yNTVjLTAuMTE5LTAuMTk4LTAuNDM1LTAuMzE2LTAuOTA5LTAuNTU0cy0yLjgwNy0xLjM4NS0zLjI0Mi0xLjU0M2MtMC40MzUtMC4xNTgtMC43NTEtMC4yMzctMS4wNjgsMC4yMzhjLTAuMzE2LDAuNDc0LTEuMjI1LDEuNTQzLTEuNTAyLDEuODU5Yy0wLjI3NywwLjMxNy0wLjU1NCwwLjM1Ny0xLjAyOCwwLjExOWMtMC40NzQtMC4yMzgtMi4wMDItMC43MzgtMy44MTUtMi4zNTRjLTEuNDEtMS4yNTctMi4zNjItMi44MS0yLjYzOS0zLjI4NWMtMC4yNzctMC40NzQtMC4wMy0wLjczMSwwLjIwOC0wLjk2OGMwLjIxMy0wLjIxMywwLjQ3NC0wLjU1NCwwLjcxMi0wLjgzMWMwLjIzNy0wLjI3NywwLjMxNi0wLjQ3NSwwLjQ3NC0wLjc5MWMwLjE1OC0wLjMxNywwLjA3OS0wLjU5NC0wLjA0LTAuODMxQzIwLjYxMiwxOS4zMjksMTkuNjksMTYuOTgzLDE5LjI2OCwxNi4wNDV6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiLz48L3N2Zz4=" />
+              </div>
+              <div class="text-left">
+                <h3 class="text-white font-semibold text-lg group-hover:text-gray-100 transition-colors duration-300">
+                  Whatsapp
+                </h3>
+                <p class="text-gray-300 text-sm group-hover:text-gray-200 transition-colors duration-300">
+                  Personal Enquiry and Order
+                </p>
               </div>
             </div>
-            <div class="text-white/60 group-hover:text-white transform transition duration-300">➡️</div>
+            <div
+              class="flex-shrink-0 text-white/60 group-hover:text-white transform group-hover:translate-x-1 transition-all duration-300">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+              </svg>
+            </div>
           </div>
         </a>
 
-        <a href="https://your-portfolio.com" target="_blank" rel="noopener noreferrer"
-          class="group block bg-purple-600/20 backdrop-blur-sm border border-purple-500/30 rounded-2xl p-4 hover:bg-purple-600/30 hover:scale-105 transition-all shadow-lg">
-          <div class="flex items-center justify-between">
+
+        <a href="www.example.com" target="_blank"
+          class="group block w-full bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-4 md:p-5 shadow-lg transition-all duration-300 ease-out hover:bg-white/20 hover:border-white/30 hover:scale-105 hover:shadow-purple-500/20 relative overflow-hidden animate-fade-in hover:animate-pulse-slow relative">
+          <!-- Gradient background effect on hover -->
+          <div
+            class="absolute inset-0 bg-gradient-to-r from-sky-400 to-blue-500  opacity-0 group-hover:opacity-10 transition-opacity duration-300 rounded-2xl z-0">
+          </div>
+          <div class="flex items-center justify-between relative z-10">
             <div class="flex items-center space-x-4">
-              <div class="w-12 h-12 bg-purple-500/30 rounded-xl flex items-center justify-center text-white group-hover:bg-purple-400/30">
+              <div class="w-12 h-12 flex-shrink-0 bg-purple-500/30 rounded-xl flex items-center justify-center">
                 🔗
+
               </div>
-              <div>
-                <h3 class="text-white font-semibold text-lg">Shopping Site</h3>
-                <p class="text-purple-200 text-sm">Coming soon 🏗️</p>
+              <div class="text-left">
+                <h3 class="text-white font-semibold text-lg group-hover:text-gray-100 transition-colors duration-300">
+                  Shopping Site
+                </h3>
+                <p class="text-gray-300 text-sm group-hover:text-gray-200 transition-colors duration-300">
+                  Coming soon 🏗️
+                </p>
               </div>
             </div>
-            <div class="text-white/60 group-hover:text-white transform transition duration-300">➡️</div>
+            <div
+              class="flex-shrink-0 text-white/60 group-hover:text-white transform group-hover:translate-x-1 transition-all duration-300">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+              </svg>
+            </div>
           </div>
         </a>
+
+
       </div>
 
       <!-- Footer -->
@@ -146,7 +328,13 @@
   </div>
 
   <script src="https://unpkg.com/lucide@latest"></script>
+
   <script src="script.js"></script>
+    
+<script>
+  lucide.createIcons();
+</script>
 
 </body>
+
 </html>
